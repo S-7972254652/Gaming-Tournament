@@ -1,0 +1,626 @@
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* scrollbar-width: auto;
+      scrollbar-color: black !important; */
+  }
+
+
+  /* ! Loader code */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000
+    url(images/preloader.gif)
+    no-repeat center;
+    z-index: 9999;
+}
+
+
+
+  /* ! Loader code */
+
+  /* *::-webkit-scrollbar {
+      background-color: #ee1523;
+      width: 10px;
+  } */
+
+  body {
+      font-family: 'Chakra Petch', sans-serif;
+      background-color: #0E063D !important;
+  }
+
+  .banner-bg {
+      background-image: url(images/banner-bg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: auto;
+  }
+
+  .dropdown-menu {
+      background-color: black !important;
+      opacity: 0.5;
+
+  }
+
+  .left-nav ul {
+      list-style: none !important;
+  }
+
+  .left-nav ul li {
+      display: inline-block !important;
+  }
+
+  .left-nav ul li a {
+      text-decoration: none !important;
+      color: #fff !important;
+  }
+
+  .left-nav ul li a:hover {
+      color: #fff;
+      opacity: 1;
+  }
+
+  .left-nav {
+      max-width: 2500px !important;
+  }
+
+  .right-nav ul {
+      list-style-type: none;
+  }
+
+  .right-nav ul li {
+      display: inline-block !important;
+      padding: 20px;
+  }
+
+  .right-nav ul li a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .right-nav button {
+      padding: 14px 44px;
+      border-radius: 30px;
+      background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+  }
+
+  .right-nav button a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+  }
+
+  .left img {
+      padding-top: 67px;
+      width: 400px;
+      height: 590px;
+  }
+
+  .right img {
+      padding-top: 67px;
+      width: 400px;
+      height: 590px;
+  }
+
+  .center {
+      text-align: center;
+  }
+
+  .center h2 {
+      font-size: 43px;
+      color: #00FADF;
+      font-family: 'Chakra Petch', sans-serif;
+      line-height: 53px;
+      font-weight: 900;
+      letter-spacing: 6px;
+  }
+
+  .center h1 {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 76px;
+      font-weight: 900;
+  }
+
+  .center p {
+      font-family: 'Chakra Petch', sans-serif;
+      max-width: 497px;
+      font-size: 18px;
+
+  }
+
+  .bt button {
+      padding: 14px 44px;
+      border-radius: 30px;
+      background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+  }
+
+  .bt button a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .center img {
+      width: 373px;
+      height: 279px;
+  }
+
+  .game-section {
+      font-family: 'Chakra Petch', sans-serif;
+      background: linear-gradient(186deg, #4609C3 -9.74%, #0E063D 82.69%);
+      box-shadow: 0px -122px 50px rgba(37, 15, 116, 0.560784);
+      border-radius: 20px;
+      padding: 80px 100px 0;
+      margin-bottom: -8px;
+  }
+
+  .game-section button {
+      background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+      padding: 14px 44px;
+      border-radius: 30px;
+      border: 2px solid white;
+  }
+
+  .game-section button a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .c {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+  .work {
+      background-image: url(images/how-works-bg.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 600px;
+  }
+
+  .work-text {
+      color: #fff;
+      text-align: center;
+  }
+
+  .work-text h1 {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 57px;
+      padding-top: 160px;
+      font-weight: bolder;
+  }
+
+  .work-text p {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 18px;
+  }
+
+  .i-1 {
+      background-color: #4609C3;
+      width: 100px;
+      height: 100px;
+      padding-top: 25px;
+      border-radius: 22px;
+      position: absolute;
+  }
+
+  .i-2 {
+      position: relative;
+      background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      left: 76px;
+      top: -75px;
+  }
+
+  #right-arrow {
+      margin-left: 100px;
+  }
+
+  #left-arrow {
+      margin-left: 80px;
+      margin-top: 30px;
+  }
+
+  .work button {
+      background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+      padding: 14px 44px;
+      border-radius: 30px;
+      border: 2px solid white;
+      margin-top: 100px;
+  }
+
+  .work button a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .icon h5 {
+      font-weight: bolder;
+      font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .tornament-bg {
+      background-image: url(images/tournaments-bg.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 1900px;
+      padding-bottom: 200px;
+  }
+
+  .tornament-bg h1 {
+      text-align: center;
+      color: white;
+      font-family: 'Chakra Petch', sans-serif;
+      font-weight: 700;
+      line-height: 68px;
+      margin-bottom: 10px;
+      font-size: 57px;
+      padding-top: 100px;
+  }
+
+  .tornament-bg p {
+      font-size: 18px;
+      font-family: 'Chakra Petch', sans-serif;
+      color: #fff;
+      text-align: center;
+      max-width: 580px;
+      margin: 0 auto;
+      line-height: 27px;
+      font-weight: 700;
+      word-spacing: 3px;
+  }
+
+  #Stat {
+      color: #fff;
+  }
+
+  #Select {
+      background-color: transparent !important;
+  }
+
+  option {
+      background-color: transparent;
+  }
+
+  .two h4 {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 32px;
+      color: #fff;
+      padding-top: 20px;
+  }
+
+  .third-card1 {
+      width: 300px;
+      /* padding: 20px; */
+  }
+
+  .third-card h4 {
+      font-size: 32px;
+      font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .third-card button {
+      background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+      padding: 14px 24px;
+      border-radius: 30px;
+      border: 2px solid white;
+      /* margin-top: 100px; */
+  }
+
+  .third-card button a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .third-card p {
+      max-width: 168px;
+  }
+
+  .one img {
+      width: 233px !important;
+      height: 249px !important;
+  }
+
+  .counter-bg {
+      background-image: url(images/counter-bg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: auto;
+      padding-bottom: 100px;
+  }
+
+  #icon-1 img {
+      background-color: #4609C3 !important;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 30px;
+  }
+
+  .count h1 {
+      font-family: 'Chakra Petch', sans-serif;
+      padding-top: 20px;
+      /* color: #64BE56; */
+  }
+
+  .count p {
+      font-family: 'Chakra Petch', sans-serif;
+      /* padding-top: 20px; */
+      color: #64BE56;
+  }
+
+  .players-week-bg {
+      background-image: url(images/players-week-bg.png);
+      background-size: cover;
+      background-position: center;
+      font-family: 'Chakra Petch', sans-serif;
+      background-repeat: no-repeat;
+      height: auto;
+      color: #fff;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+    
+    .players-week-bg h1 {
+        padding-top: 50px;
+        font-size: 52px;
+        font-weight: 700;
+    }
+    
+  .players-week-bg p {
+      font-size: 18px;
+      max-width: 605px;
+      margin: 0 auto;
+    }
+    
+    .card {}
+    
+    .card .img-1 img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: #f23d1c;
+        border-radius: 50%;
+        top: 54px;
+        left: -4px;
+    }
+    
+    .card .img-2 img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        /* background-color: #f23d1c; */
+      /* border-radius: 50%; */
+      top: 27px;
+      left: -6px;
+    }
+    
+    .round {
+        position: absolute;
+        left: 92px;
+    }
+    
+    .info button {
+        margin-top: 20px;
+        background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+        padding: 14px 44px;
+        border-radius: 30px;
+        border: 2px solid white;
+        /* margin-top: 100px; */
+    }
+    
+    .info button a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #cc-1 {
+        margin-top: 100px;
+    }
+    
+    .s-last-bg{
+        background-image: url(images/counter-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        padding-bottom: 100px;
+        
+    }
+    
+    .s-last-bg-text{
+        text-align: center;
+        padding-top: 100px;
+        color: #fff;
+        font-family: 'Chakra Petch', sans-serif;
+    } 
+    .s-last-bg-text h1{
+        font-weight: 900;
+        font-size: 57px;
+    }
+    .s-last-bg-text p{
+        font-weight: 900;
+        font-size: 18px;
+    }
+    .text-s-1 img{
+        background-color: #4609C3;
+        padding: 20px;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .text-s-1 p{
+        max-width: 348px;
+        font-size: 18px;
+    }
+    .invite{
+        background-color: #161D85;
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .invite h4{
+        max-width: 277px;
+        margin: 0 auto;
+        color: #fff
+    }
+    .right-call img{
+        z-index: 1;
+        position: relative;
+    }
+.testimonial-bg{
+    background-image: url(images/testimonials-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.testimonial-bg-text{
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    color: #fff;
+}
+.testimonial-bg-text h1{
+    font-weight: 900;
+    font-weight: 77px;
+}
+.testimonial-bg-text p{
+    font-size: 15px;
+}
+.profile{
+    font-family: 'Chakra Petch', sans-serif;
+    padding-top: 150px;
+    color: #fff;
+}
+.profile h1 {
+    font-weight: 900;
+    max-width: 517px;
+    font-size: 57px;
+}
+.profile p{
+    font-size: 18px;
+    max-width: 562px;
+    /* padding-bottom: 250px !important; */
+
+}
+.profile button{
+    padding: 14px 44px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 51px;
+    transition: all 0.8s !important;
+}
+.profile button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.profile button:hover{
+    background-image: linear-gradient(to right top, #ee1523, #f23d1c, #f55614, #f76c0d, #f87f09, #fd7428, #ff6b3b, #ff624b, #ff3e73, #f52ba3, #c841d3, #685ffb);
+ 
+}
+.newsletter{
+    background-image: url(images/footer-top-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+}
+footer{
+    background-image: url(images/footer-bg.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    /* top: -100px; */
+}
+input[type=text]{
+    width: 50% !important;
+}
+.subscribe {
+    background: #142A8D;
+    border: 1px solid #9383F7;
+    border-radius: 30px;
+    padding: 5px;
+}
+.subscribe input {
+    background: #142A8D;
+    border-radius: 30px;
+    border: none;
+    color: var(--body-color);
+}
+input, textarea {
+    padding: 10px 25px;
+    border: 1px solid #4450B8;
+    width: 500px;
+    outline: none;
+    font-family: var(--body-font);
+}
+.subscribe button {
+    color: var(--body-color);
+    overflow: initial;
+}
+.cmn-btn {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: all 0.5s;
+    padding: 11px 32px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 0;
+}
+.newsletter h1{
+    max-width: 364px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding: 20px;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
